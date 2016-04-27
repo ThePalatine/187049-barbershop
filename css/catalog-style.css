@@ -23,21 +23,19 @@ body{
   margin-bottom: 30px;
   /*Разметка*/
   min-height: 70px;
-  background-color: rgba(255, 0, 0, 0.3);
+
 }
 .container{
 	width: 940px;
   margin: 0 auto;
   padding: 0 10px;
   /*Разметка*/
-  background-color: rgba(0, 255, 0, 0.3);
 }
 .main-navigation {
   float: left;
   width: 780px;
   /*Разметка*/
   min-height: 70px;
-  background-color: rgba(0, 0, 255, 0.3);
 }
 
 .user-block {
@@ -45,7 +43,6 @@ body{
   width: 140px;
   /*Разметка*/
   min-height: 70px;
-  background-color: rgba(0, 255, 130, 0.3);
 }
 .main-navigation ul li,
 .breadcrumb-nav ul li{
@@ -57,7 +54,6 @@ body{
   width: 100%;
   margin-bottom: 20px;
   /*Разметка*/
-  background-color: rgba(0, 0, 255, 0.3);
   min-height: 70px;
 }
 .selection{
@@ -65,15 +61,11 @@ body{
   width: 250px;
   height: 510px;
   margin-right: 10px;
-  /*Разметка*/
-  background-color: rgba(0, 0, 255, 0.3);
 }
 .goods-list{
   float: left;
   width: 630px;
   height: 510px;
-  /*Разметка*/
-  background-color: rgba(0, 0, 255, 0.3);
 }
 
 .product-block{
@@ -81,8 +73,6 @@ body{
   width: 190px;
   height: 240px;
   margin: 5px;
-  /*Разметка*/
-  background-color: rgba(0, 0, 255, 0.3);
 }
 
 .pagination{
@@ -90,8 +80,7 @@ body{
   width: 100%;
   margin-top: 20px;
   padding-left: 0;
-  /*Разметка*/
-  background-color: rgba(0, 0, 255, 0.3);
+  text-align: center;
 }
 
 .main-footer{
@@ -105,14 +94,12 @@ body{
   margin-right: 60px;
   /*Разметка*/
   min-height: 90px;
-  background-color: rgba(0, 255, 130, 0.3);
 }
 .footer-social{
   float: left;
   width: 180px;
   /*Разметка*/
   min-height: 90px;
-  background-color: rgba(0, 255, 130, 0.3);
 }
 
 .footer-copyright{
@@ -120,5 +107,4 @@ body{
   width: 180px;
   /*Разметка*/
   min-height: 90px;
-  background-color: rgba(0, 255, 130, 0.3);
 }
