@@ -1,18 +1,124 @@
+html,
+body {
+  min-width: 960px;
+  min-height: 1200px;
+  /*высота макета 1173*/
+  margin: 0;
+  padding: 0;
+}
+
 body{
   font-size: 14px;
   line-height: 18px;
   color: #000000;
   font-weight: bold;
 }
-h1{
-  font-size: 30px;
-  line-height: 42px;
-  color: #000000;
-  font-weight: bold;
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
 }
-b{
-  font-size: 24px;
-  line-height: 30px;
-  color: #000000;
-  font-weight: bold;
+.main-header {
+  margin-bottom: 30px;
+  /*Разметка*/
+  min-height: 70px;
+  background-color: rgba(255, 0, 0, 0.3);
+}
+.container{
+	width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+  /*Разметка*/
+  background-color: rgba(0, 255, 0, 0.3);
+}
+.main-navigation {
+  float: left;
+  width: 780px;
+  /*Разметка*/
+  min-height: 70px;
+  background-color: rgba(0, 0, 255, 0.3);
+}
+
+.user-block {
+	float: right;
+  width: 140px;
+  /*Разметка*/
+  min-height: 70px;
+  background-color: rgba(0, 255, 130, 0.3);
+}
+.main-navigation ul li,
+.breadcrumb-nav ul li{
+  display: inline;
+}
+
+.breadcrumb-nav{
+  float: left;
+  width: 100%;
+  margin-bottom: 20px;
+  /*Разметка*/
+  background-color: rgba(0, 0, 255, 0.3);
+  min-height: 70px;
+}
+.selection{
+  float: left;
+  width: 250px;
+  height: 510px;
+  margin-right: 10px;
+  /*Разметка*/
+  background-color: rgba(0, 0, 255, 0.3);
+}
+.goods-list{
+  float: left;
+  width: 630px;
+  height: 510px;
+  /*Разметка*/
+  background-color: rgba(0, 0, 255, 0.3);
+}
+
+.product-block{
+  display: inline-block;
+  width: 190px;
+  height: 240px;
+  margin: 5px;
+  /*Разметка*/
+  background-color: rgba(0, 0, 255, 0.3);
+}
+
+.pagination{
+  float: left;
+  width: 100%;
+  margin-top: 20px;
+  padding-left: 0;
+  /*Разметка*/
+  background-color: rgba(0, 0, 255, 0.3);
+}
+
+.main-footer{
+  margin-top: 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.footer-contacts{
+  float: left;
+  width: 320px;
+  margin-right: 60px;
+  /*Разметка*/
+  min-height: 90px;
+  background-color: rgba(0, 255, 130, 0.3);
+}
+.footer-social{
+  float: left;
+  width: 180px;
+  /*Разметка*/
+  min-height: 90px;
+  background-color: rgba(0, 255, 130, 0.3);
+}
+
+.footer-copyright{
+  float: right;
+  width: 180px;
+  /*Разметка*/
+  min-height: 90px;
+  background-color: rgba(0, 255, 130, 0.3);
 }
